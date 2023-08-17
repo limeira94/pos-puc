@@ -1,0 +1,34 @@
+/* seletores de elementos HTLM */
+p {
+    background-color: yellow;
+}
+
+/*seletores de atributos id */
+#menu-principal {
+    background-color: lightgray;
+}
+
+/*seletores de atributos class */
+.leia-mais {
+    text-align: right;
+}
+
+/*seletores de atributos gerais */
+[src] {
+    float: right;
+}
+
+/*seletores de atributos de pseudo-class */
+p:hover {
+    color: red;
+}
+
+/*seletores de atributos de pseudo-element */
+p::first-letter {
+    font-size: xx-large;
+}
+
+/*seletores universais */
+* {
+    margin: 0;
+}
